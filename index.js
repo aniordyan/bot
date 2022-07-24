@@ -20,8 +20,8 @@ client.on("ready", () => {
   var testChannel =  client.channels.cache.find(channel => channel.id === "974312830708891663");
 
 
-  cron.schedule('0 0 5 * *', () => {
-  testChannel.send('This message is send every day at 9am');
+  cron.schedule('0 0 05 * *', () => {
+  testChannel.send('Մաղթում եմ բարի և արդյունավետ օր բոլորին');
   
 });
   
